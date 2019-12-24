@@ -12,7 +12,7 @@
 [![Blog](https://img.shields.io/badge/blog-Jenly-9933CC.svg)](https://jenly1314.github.io/)
 [![QQGroup](https://img.shields.io/badge/QQGroup-20867961-blue.svg)](http://shang.qq.com/wpa/qunwpa?idkey=8fcc6a2f88552ea44b1411582c94fd124f7bb3ec227e2a400dbbfaad3dc2f5ad)
 
-GuidePage for Android 是一个App欢迎引导页。一般应用于首次打开App时场景，通过引导页指南，概述APP特色等相关信息。
+GuidePage for Android 是一个App欢迎引导页。一般用于首次打开App时场景，通过引导页指南，概述App特色等相关信息
 
 ## Gif 展示
 ![Image](GIF.gif)
@@ -85,18 +85,6 @@ allprojects {
             .start(this)//Activity or Fragment
 
 ```
-
-### 相关说明
-> * 使用**GuidePage**时，必须配置一个实现的**ImageLoader**。
-
-> * **GuidePage**一次可以查看多张图片或单张图片，支持的类型可以是**Uri**, **url**, **path**,**File**, **Drawable**等
-
-> * 目前内置默认实现的**ImageLoader**有 和**PicassoImageLoader**，二者选其一即可，如果二者不满足您的需求，您也可以自己实现一个**ImageLoader**。
-
-> * 为了保证**GuidePage**体积最小化，和用户更多可能的选择性，并未将**Glide**和**Picasso**打包进**aar**。
->>    当您使用了**GlideImageLoader**时，必须依赖[**Glide**](https://github.com/bumptech/glide)库。
->>    当您使用了**PicassoImageLoader**时，必须依赖[**Picasso**](https://github.com/square/picasso)库。
-
 
 更多使用详情，请查看[app](app)中的源码使用示例
 
