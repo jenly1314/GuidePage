@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#7289eb</color>
+    <color name="colorPrimaryDark">#607aed</color>
+    <color name="colorAccent">#90a2f0</color>
+
+    <color name="gp_status_bar_color">#00000000</color>
+    <color name="gp_navigation_bar_color">#00000000</color>
+
+    <color name="gp_indicator_color">#EEEEEE</color>
+
+    <color name="gp_skip_textColor">#EEEEEE</color>
+    <color name="gp_skip_background">#3F000000</color>
+
+
+</resources>

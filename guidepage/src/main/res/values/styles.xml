@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="GuidePageTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <style name="GuidePage.SkipTextAppearance"  parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/gp_skip_textSize</item>
+        <item name="android:textColor">@color/gp_skip_textColor</item>
+    </style>
+
+    <style name="GuidePage.SkipStyle"  parent="GuidePageTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/gp_skip_text</item>
+        <item name="android:background">@drawable/gp_skip_background</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:paddingLeft">@dimen/gp_skip_paddingLeft</item>
+        <item name="android:paddingTop">@dimen/gp_skip_paddingTop</item>
+        <item name="android:paddingRight">@dimen/gp_skip_paddingRight</item>
+        <item name="android:paddingBottom">@dimen/gp_skip_paddingBottom</item>
+        <item name="android:layout_marginLeft">@dimen/gp_skip_marginLeft</item>
+        <item name="android:layout_marginTop">@dimen/gp_skip_marginTop</item>
+        <item name="android:layout_marginRight">@dimen/gp_skip_margiRight</item>
+        <item name="android:layout_marginBottom">@dimen/gp_skip_marginBottom</item>
+        <item name="android:textAppearance">@style/GuidePage.SkipTextAppearance</item>
+    </style>
+
+    <style name="GuidePage.DoneStyle" parent="GuidePageTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_marginLeft">@dimen/gp_done_marginLeft</item>
+        <item name="android:layout_marginTop">@dimen/gp_done_marginTop</item>
+        <item name="android:layout_marginRight">@dimen/gp_done_margiRight</item>
+        <item name="android:layout_marginBottom">@dimen/gp_done_marginBottom</item>
+    </style>
+
+    <style name="GuidePage.IndicatorStyle" parent="GuidePageTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_marginLeft">@dimen/gp_indicator_marginLeft</item>
+        <item name="android:layout_marginTop">@dimen/gp_indicator_marginTop</item>
+        <item name="android:layout_marginRight">@dimen/gp_indicator_marginRight</item>
+        <item name="android:layout_marginBottom">@dimen/gp_indicator_marginBottom</item>
+    </style>
+
+</resources>
