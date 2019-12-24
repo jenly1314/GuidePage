@@ -14,6 +14,11 @@
 
 GuidePage for Android 是一个App欢迎引导页。一般用于首次打开App时场景，通过引导页指南，概述App特色等相关信息
 
+## 功能介绍
+- [x] 链式调用，简单易用
+- [x] 自定义配置，满足各种需求
+
+
 ## Gif 展示
 ![Image](GIF.gif)
 
@@ -86,6 +91,13 @@ allprojects {
             .start(this)//Activity or Fragment
 
 ```
+
+### 相关说明
+
+> * 通过**GuidePage**链式调用，可以满足一些基本需求场景。
+
+> * 当**GuidePage**中提供的配置无法满足需求时，可通过资源命名相同方式去自定义配置，即：资源覆盖方式。如**dimens**、**styles**等对应的资源。
+
 
 更多使用详情，请查看[app](app)中的源码使用示例
 
