@@ -58,6 +58,7 @@ allprojects {
 ```Kotlin
     //简单调用示例
     GuidePage.load(intArrayOf(R.drawable.guide_page_1,R.drawable.guide_page_2,R.drawable.guide_page_3,R.drawable.guide_page_4))
+            .pageDoneDrawableResource(R.drawable.btn_done)
             .start(this)//Activity or Fragment
 ```
 
