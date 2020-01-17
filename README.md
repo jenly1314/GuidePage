@@ -36,6 +36,7 @@ GuidePage for Android 是一个App欢迎引导页。一般用于首次打开App�
 ```
 ### Gradle:
 ```gradle
+//AndroidX
 implementation 'com.king.guide:guidepage:1.0.0'
 ```
 
@@ -123,7 +124,7 @@ allprojects {
 
    CSDN: <a title="CSDN博客" href="http://blog.csdn.net/jenly121" target="_blank">jenly121</a>
 
-   博客园: <a title="博客园" href="https://www.cnblogs.com/jenly" target="_blank">jenly</a>
+   CNBlog: <a title="博客园" href="https://www.cnblogs.com/jenly" target="_blank">jenly</a>
 
    Github: <a title="Github开源项目" href="https://github.com/jenly1314" target="_blank">jenly1314</a>
 
